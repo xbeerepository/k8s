@@ -10,7 +10,7 @@ provision:
       template: provision.sh
 
 command:
-  configure_master:
+  configure_mastcer:
     cmds:
       - kubeadm init --pod-network-cidr=192.168.0.0/16
       - mkdir -p $HOME/.kube
